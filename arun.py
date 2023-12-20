@@ -10,10 +10,10 @@ import streamlit as st
 import pickle
 import joblib
 import pandas as pd
-from nltk.tokenize import word_tokenize
-from nltk.corpus import stopwords
-from nltk.stem import WordNetLemmatizer
-from sklearn.feature_extraction.text import TfidfVectorizer
+#from nltk.tokenize import word_tokenize
+#from nltk.corpus import stopwords
+#from nltk.stem import WordNetLemmatizer
+#from sklearn.feature_extraction.text import TfidfVectorizer
 
 # Load the pre-trained model and TF-IDF vectorizer
 model = joblib.load("model_1.pkl")
