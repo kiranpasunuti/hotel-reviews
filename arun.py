@@ -1,7 +1,7 @@
 # streamlit_app.py
 
 # streamlit_app.py
-pip install nltk
+
 import streamlit as st
 import pickle
 import joblib
